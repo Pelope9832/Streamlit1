@@ -265,3 +265,30 @@ contraseña = st.text_input("Password", type="password")
 "Aquí se mostrara tu contraseña" if contraseña == "" else "Tu contraseña es: *" + contraseña +"*"
 
 st.text("El formato contraseña solo es valido para el textbox pequeño.")
+
+# ######################
+# App Github
+# ######################
+
+st.title("Titulo 12: App Github")
+
+"hay que abrirse una cuenta de Github y publicar todo para poder verlo online"
+"Los archivos de la carpeta .streamlit no se cargan porque es una carpeta oculta, hay que meterlos por tu cuenta"
+"secrets.toml no hay que añadirlo, eso solo es para trabajo local. en cambio, hay que ir a ≡ -> Setting -> Secrets y copiar con el formato .toml"
+"config.toml sí parece que funciona, pero tiene preferencia el usuario al elegir el color de la pagina (tema)"
+"Las modificaciones en About, Report a Bug y Get Help parecen tardar un poco más en cargar"
+
+# ######################
+# Otros II
+# ######################
+
+st.title("Titulo 13: Otros II - Streamlit web")
+
+"Implementar una aplicación / Deploy an app"
+"https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app"
+
+"Share your app"
+"https://docs.streamlit.io/streamlit-community-cloud/get-started/share-your-app"
+
+"Cloud / Get started"
+"https://streamlit.io/cloud"
